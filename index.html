@@ -6,82 +6,150 @@
   <title>M. Sanchez Consulting LLC</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #f7f7f7;
-      color: #333;
+      background: #fff;
+      color: #1e1e1e;
+      line-height: 1.6;
     }
+
     header {
-      background: #1e293b;
-      color: white;
+      background-color: #f5f5f5;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #b30000;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-style: italic;
+      color: #444;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+
+    .photo {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .photo img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .info {
+      flex: 2 1 400px;
+    }
+
+    .info h2 {
+      color: #b30000;
+      margin-bottom: 1rem;
+    }
+
+    .info ul {
+      columns: 2;
+      list-style: none;
+      padding: 0;
+    }
+
+    .info li {
+      margin-bottom: 0.5rem;
+    }
+
+    .about {
+      background: #fafafa;
       padding: 2rem;
       text-align: center;
     }
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    h2 {
-      color: #1e293b;
-    }
-    section {
-      padding: 2rem;
+
+    .about p {
       max-width: 800px;
       margin: auto;
     }
-    .cta-button {
-      display: inline-block;
-      padding: 1rem 2rem;
-      margin-top: 1.5rem;
-      background-color: #3b82f6;
-      color: white;
+
+    .contact {
+      background: #1e1e1e;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .contact a {
+      color: #ffcccb;
       text-decoration: none;
-      border-radius: 8px;
       font-weight: bold;
     }
-    .contact {
-      background: #e2e8f0;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-top: 2rem;
+
+    .contact h3 {
+      margin-bottom: 0.5rem;
     }
-    .footer {
+
+    footer {
       text-align: center;
       font-size: 0.9rem;
       padding: 1rem;
-      color: #666;
+      background: #f0f0f0;
+      color: #555;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>M. Sanchez Consulting LLC</h1>
-    <p>Business & Mindset Growth Services</p>
+    <h1>M. Sanchez Consulting LLC.</h1>
+    <p>Consult with Mary</p>
   </header>
 
-  <section>
-    <h2>Empower Your Business. Elevate Your Mindset.</h2>
-    <p>
-      At M. Sanchez Consulting, we help entrepreneurs and professionals unlock their full potential through strategic business consulting and personal growth coaching.
-    </p>
-    <ul>
-      <li>✅ Business development strategies</li>
-      <li>✅ Leadership & mindset coaching</li>
-      <li>✅ Growth planning and consulting</li>
-    </ul>
-
-    <a href="tel:9722092160" class="cta-button">📞 Call Now to Book a Consult</a>
-
-    <div class="contact">
-      <p><strong>Phone:</strong> <a href="tel:9722092160">972-209-2160</a></p>
-      <p><strong>Email:</strong> <a href="mailto:msanchez@consultwithmary.net">msanchez@consultwithmary.net</a></p>
+  <div class="container">
+    <div class="photo">
+      <img src="consulting-card-preview.jpg" alt="Mary Sanchez - Business Consultant">
+      <p><em>Hablamos Español</em></p>
     </div>
-  </section>
-
-  <div class="footer">
-    &copy; 2025 M. Sanchez Consulting LLC. All rights reserved.
+    <div class="info">
+      <h2>Our Services</h2>
+      <ul>
+        <li>LLC Formation</li>
+        <li>Build Business Credit</li>
+        <li>Grant Information</li>
+        <li>USCIS Assistance</li>
+        <li>Business Tax Planning</li>
+        <li>Mentorship</li>
+      </ul>
+    </div>
   </div>
+
+  <div class="about">
+    <p>
+      If you need professional assistance with a specific business problem, are struggling to take your business to the next level, 
+      or if your business is not operating to its potential, contact us today to schedule a confidential, independent assessment of 
+      your company and unleash the potential of your business.
+    </p>
+  </div>
+
+  <div class="contact">
+    <h3>Call us: <a href="tel:9722092160">972-209-2160</a></h3>
+    <p>Email: <a href="mailto:mdstaxinfo@gmail.com">mdstaxinfo@gmail.com</a></p>
+    <p>1332 S Buckner Blvd, Dallas TX 75217</p>
+  </div>
+
+  <footer>
+    &copy; 2025 M. Sanchez Consulting LLC. All rights reserved.
+  </footer>
 
 </body>
 </html>
